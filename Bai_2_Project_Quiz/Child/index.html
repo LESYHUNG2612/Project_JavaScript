@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <title>Start</title>
+</head>
+<body>
+            Tên Nhân Vật: <input type="text" id="text"><br>
+            <button id="click-me">Xuất thông báo</button>
+
+            <script>
+                        var bt = document.getElementById('click-me');
+                        bt.addEventListener('click', function() {
+                        var content = document.getElementById('text').value;
+                                    alert(content);
+                        });
+            </script>
+
+</body>
+</html>
